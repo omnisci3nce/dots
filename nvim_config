@@ -19,19 +19,16 @@ call plug#end()
 
 set termguicolors
 set background=light
-"colorscheme PaperColor
-let g:gh_color = "soft"
-"colorscheme ghdark
 colorscheme base16-tomorrow-night-eighties
-""let g:lightline = { 'colorscheme': 'PaperColor' }
+let g:lightline = { 'colorscheme': 'PaperColor' }
 set noshowmode
 
 set cursorline
 hi CursorLine ctermbg=Black
 
-set number    " turn on line numbers
-set nocompatible " ?
-set expandtab " tabs -> spaces
+set number                  " turn on line numbers
+set nocompatible            " ?
+set expandtab               " tabs -> spaces
 set tabstop=2
 set shiftwidth=2
 set smartindent

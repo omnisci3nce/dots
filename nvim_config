@@ -22,18 +22,19 @@ colorscheme base16-tomorrow-night-eighties
 let g:lightline = { 'colorscheme': 'PaperColor' }
 set noshowmode
 
+syntax on
 set cursorline
 hi CursorLine ctermbg=Black
 
 set number                  " turn on line numbers
-set nocompatible            " ?
+set nocompatible            " don't try to be vi compatible
 set expandtab               " tabs -> spaces
 set tabstop=2
 set shiftwidth=2
 set smartindent
 set incsearch
 
-set hidden
+set hidden                  " allows you to open new files with unsaved changes in current buffer
 
 au bufnewfile,bufRead bash_config set filetype=sh " adds syntax highlighting to bash config
 

@@ -7,7 +7,6 @@ Plug 'sheerun/vim-polyglot'
 
 " -- Themes
 Plug 'ayu-theme/ayu-vim'
-Plug 'ntk148v/vim-horizon'
 Plug 'kaicataldo/material.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'wojciechkepka/vim-github-dark'

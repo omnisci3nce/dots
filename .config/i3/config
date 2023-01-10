@@ -208,7 +208,7 @@ bar {
 		-t iceberg-contrast \
 		-m memory spacer disk spacer datetime \
 		-p memory.format="{used}/{total}" disk.format="{used}/{size}"
-	font pango:monospace 11
+	font pango:MesloLGM Nerd Font Mono 11
 	colors {
 		background #101010
 		statusline #ffffff

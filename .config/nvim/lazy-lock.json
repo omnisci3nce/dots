@@ -5,6 +5,7 @@
   "melange": { "branch": "master", "commit": "716d3d0a2987a000e61fca2d8d8918e84ca5dcb8" },
   "neoconf.nvim": { "branch": "main", "commit": "b587d21f5774cbc8a42fcb1e71437ae5d423da8d" },
   "neodev.nvim": { "branch": "main", "commit": "258b83f48405c6b530c09dd96950693664dc6bc0" },
+  "nightfox.nvim": { "branch": "main", "commit": "6677c99d89050fa940ffc320fe780fb52baa68ac" },
   "nvim": { "branch": "main", "commit": "3020af75aae098a77737d91ee37c7147c8450d99" },
   "nvim-treesitter": { "branch": "master", "commit": "5fb315df12a3091f241b0326aed0ec70381adbd8" },
   "plenary.nvim": { "branch": "master", "commit": "9d81624fbcedd3dd43b38d7e13a1e7b3f873d8cd" },

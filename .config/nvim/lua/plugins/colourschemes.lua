@@ -6,5 +6,6 @@ return {
   },
   'catppuccin/nvim',
   'rebelot/kanagawa.nvim',
-  'savq/melange'
+  'savq/melange',
+  'EdenEast/nightfox.nvim',
 }

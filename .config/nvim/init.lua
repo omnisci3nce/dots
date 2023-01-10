@@ -3,7 +3,7 @@ require("omni/lazy_bootstrap")
 
 -- my settings and mappings
 require("omni")
-require("omni/set")
+require("omni/options")
 require("omni/remap")
 
 -- load plugins

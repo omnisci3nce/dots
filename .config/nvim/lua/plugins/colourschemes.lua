@@ -1,12 +1,10 @@
 return {
-  'NLKNguyen/papercolor-theme',
-  -- catppuccin
-  {
-    'catppuccin/nvim',
+  { 'NLKNguyen/papercolor-theme',
     lazy = false,
-    name = 'catppuccin',
+    name = 'PaperColor',
     priority = 1000,
   },
+  'catppuccin/nvim',
   'rebelot/kanagawa.nvim',
   'savq/melange'
 }

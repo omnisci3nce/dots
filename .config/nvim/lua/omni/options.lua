@@ -22,3 +22,6 @@ vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 
 vim.opt.colorcolumn = "80"
+
+-- without this rust always gets 4 spaces
+vim.g.rust_recommended_style = 0

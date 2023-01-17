@@ -9,3 +9,7 @@ vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
 
 vim.keymap.set("n", "Q", "<nop>")
+
+-- buffer movement
+vim.keymap.set("n", "<leader>h", ":bp<CR>")
+vim.keymap.set("n", "<leader>l", ":bn<CR>")

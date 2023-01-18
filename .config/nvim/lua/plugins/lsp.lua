@@ -20,7 +20,7 @@ return {
   },
   config = function(plugin, opts)
     local lsp = require('lsp-zero')
-    lsp.preset('recommended')
+    lsp.preset('lsp-compe')
 
     -- my modifications
     lsp.ensure_installed({
@@ -28,6 +28,14 @@ return {
       'rust_analyzer',
       'sumneko_lua'
     })
+
+    local cmp = require('cmp')
+    local cmp_config = lsp.defaults.cmp_config({
+      completion = {
+        autocomplete = false
+      }
+    })
+    cmp.setup(cmp_config)
 
     lsp.on_attach(function(client, bufnr)
       local bufopts = { noremap=true, silent=true, buffer=bufnr }

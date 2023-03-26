@@ -1,11 +1,17 @@
 return {
-  { 'NLKNguyen/papercolor-theme',
+  -- default colourscheme
+  { 'savq/melange-nvim',
     lazy = false,
-    name = 'PaperColor',
     priority = 1000,
+    config = function()
+      --vim.cmd [[highlight clear]]
+      vim.cmd [[colorscheme melange]]
+    end,
   },
+  -- some others to choose from
   'catppuccin/nvim',
+  'NLKNguyen/papercolor-theme',
   'rebelot/kanagawa.nvim',
-  'savq/melange',
   'EdenEast/nightfox.nvim',
+  'AlexvZyl/nordic.nvim',
 }

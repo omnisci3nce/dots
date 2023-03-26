@@ -1,4 +1,4 @@
-vim.termguicolors = true
+vim.opt.termguicolors = true
 
 vim.opt.number = true           -- turn on line numbers
 vim.opt.relativenumber = true

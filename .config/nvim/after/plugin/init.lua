@@ -1,5 +1,5 @@
 function Colorise(color)
-  color = color or "PaperColor"
+  color = color or "melange"
   vim.cmd.colorscheme(color)
 end
 

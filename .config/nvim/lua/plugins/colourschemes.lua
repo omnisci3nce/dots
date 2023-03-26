@@ -4,8 +4,7 @@ return {
     lazy = false,
     priority = 1000,
     config = function()
-      --vim.cmd [[highlight clear]]
-      vim.cmd [[colorscheme melange]]
+      vim.cmd('colorscheme melange');
     end,
   },
   -- some others to choose from

@@ -33,6 +33,7 @@ return {
     local cmp = require('cmp')
     local cmp_config = lsp.defaults.cmp_config({
       completion = {
+        -- turn autocomplete off. instead it's triggered with TAB
         autocomplete = false
       }
     })

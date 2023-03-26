@@ -24,9 +24,9 @@ return {
 
     -- my modifications
     lsp.ensure_installed({
-      'tsserver',
-      'rust_analyzer',
-      'sumneko_lua'
+--      'tsserver',
+--      'rust_analyzer',
+--      'sumneko_lua'
     })
 
     local cmp = require('cmp')
